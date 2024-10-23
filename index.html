@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Tourism</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <!-- Logo -->
+        <div>
+            <img src="./images/logo.png" alt="Logo" width="150">
+        </div>
+        <!-- Navigation Menu -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Kerala</a></li>
+                <li><a href="#destinations">Top Destinations</a></li>
+                <li><a href="#districts">Districts</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Introduction Section -->
+        <section>
+            <h1>Come and Enjoy Our Culture</h1>
+            <!-- Links to More Information and Contact -->
+            <!--<a href="learnmore.html">Learn More</a>-->
+            <!--<a href="#contact">Contact Us</a>-->
+        </section>
+
+        <!-- Top Destinations Section -->
+        <section id="destinations">
+            <h1>Top Destinations</h1>
+            <!-- Destination 1: Alappuzha -->
+            <article>
+                <figure>
+                    <img src="https://th.bing.com/th?id=OIP.1cvcdKivbI1Dne-gzI9ebwHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Alappuzha">
+                    <figcaption>Alappuzha</figcaption>
+                </figure>
+                <p>Alappuzha is a destination that offers visitors a perfect blend of nature, culture, and history. With its iconic backwaters, houseboat cruises, pristine beaches, and rich cultural heritage, it provides an authentic Kerala experience. Whether you are looking for a peaceful retreat in the backwaters, a cultural exploration, or a taste of local cuisine, Alappuzha has something for everyone.</p>
+            </article>
+            
+            <!-- Add 3 more destinations below -->
+            <!-- Destination 2 -->
+            <article>
+                <figure>
+                    <img src="https://th.bing.com/th?id=OIP.XyAdcE_bjcbOd-L6H1FTHwHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Munnar">
+                    <figcaption>Munnar</figcaption>
+                </figure>
+                <p>Munnar is a beautiful hill station in Kerala, known for its lush tea gardens and scenic beauty.</p>
+            </article>
+            
+            <!-- Destination 3 -->
+            <article>
+                <figure>
+                    <img src="https://th.bing.com/th?id=OIP.dkeFxDJ3ZqPJGPOUQm2FkwHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Kovalam">
+                    <figcaption>Kovalam</figcaption>
+                </figure>
+                <p>Kovalam is famous for its beaches, particularly Lighthouse Beach, offering stunning sunset views.</p>
+            </article>
+            
+            <!-- Destination 4 -->
+            <article>
+                <figure>
+                    <img src="https://th.bing.com/th?id=OIP.B72RjDHFyJzCzqHIptR-NgHaEU&w=327&h=190&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="Wayanad">
+                    <figcaption>Wayanad</figcaption>
+                </figure>
+                <p>Wayanad is a district known for its wildlife, waterfalls, and ancient caves, ideal for nature lovers.</p>
+            </article>
+        </section>
+
+        <!-- Kerala Map and About Kerala Section -->
+        <section id="about">
+            <h1>About Kerala</h1>
+            <p>Kerala is known for its backwaters, palm-lined beaches, and scenic landscapes. It is a popular destination for ecotourism and Ayurveda treatments.</p>
+            <!-- Add a Kerala map image -->
+            <img src="https://th.bing.com/th?id=OIP.BdRItsWKQMjqHMGWnj7xIgHaL9&w=196&h=317&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2g" alt="Kerala Map">
+        </section>
+
+        <!-- Districts Section -->
+        <section id="districts">
+            <h1>Districts of Kerala</h1>
+            <ol>
+                <li><a href="#">Thiruvananthapuram</a></li>
+                <li><a href="#">Kochi (Ernakulam)</a></li>
+                <li><a href="#">Kozhikode</a></li>
+                <li><a href="#">Alappuzha</a></li>
+            </ol>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <form action="/submit" method="post">
+                <!-- Use fieldset and legend for form grouping -->
+                <fieldset>
+                    <legend>Get in Touch</legend>
+                    <!-- Name Field with validation -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <!-- Email Field with validation -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <!-- Message Field -->
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <br>
+                    <!-- Submit Button -->
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Kerala Tourism. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
